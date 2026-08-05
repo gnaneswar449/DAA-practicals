@@ -19,6 +19,9 @@ DAA-practicals/
 │   ├── linear_search.py     # Linear Search
 │   ├── binary_search.py     # Binary Search (Iterative/Recursive)
 │   └── README.md            # Detailed documentation for Practical 02
+├── practical-03-max-heap/
+│   ├── max_heap.py          # Max Heap Operations (Build Heap, Insert, Delete Max)
+│   └── README.md            # Detailed documentation for Practical 03
 ├── .gitignore
 └── README.md
 ```
@@ -44,6 +47,15 @@ DAA-practicals/
 | **Linear Search** | $\mathcal{O}(1)$ | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | Unsorted / Any array |
 | **Binary Search** | $\mathcal{O}(1)$ | $\mathcal{O}(\log n)$ | $\mathcal{O}(\log n)$ | $\mathcal{O}(1)$ | Sorted array required |
 
+### 3. Max Heap (`practical-03-max-heap`)
+
+| Operation | Time Complexity | Auxiliary Space Complexity | Description |
+| :--- | :---: | :---: | :--- |
+| **Heapify** | $\mathcal{O}(\log n)$ | $\mathcal{O}(\log n)$ | Maintains max heap property downward |
+| **Build Max Heap** | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | Builds max heap from unsorted array |
+| **Insertion** | $\mathcal{O}(\log n)$ | $\mathcal{O}(1)$ | Inserts element and sifts upward |
+| **Delete Max** | $\mathcal{O}(\log n)$ | $\mathcal{O}(\log n)$ | Extracts root and heapifies downward |
+
 ---
 
 ## 💻 How to Run
@@ -62,6 +74,11 @@ DAA-practicals/
 3. Run any searching algorithm (e.g., Binary Search):
    ```bash
    python practical-02-searching-algorithms/binary_search.py
+   ```
+
+4. Run Max Heap operations (Practical 03):
+   ```bash
+   python practical-03-max-heap/max_heap.py
    ```
 
 ---
