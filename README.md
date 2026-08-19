@@ -25,9 +25,9 @@ DAA-practicals/
 ├── practical-04-factorial-comparison/
 │   ├── factorial_comparison.py  # Iterative vs Recursive Factorial with timing
 │   └── README.md            # Detailed documentation for Practical 04
-├── practical-05-coin-change-dp/
+├── practical-07-coin-change-dp/
 │   ├── coin_change_dp.py    # Coin Change Problem using Dynamic Programming
-│   └── README.md            # Detailed documentation for Practical 05
+│   └── README.md            # Detailed documentation for Practical 07
 ├── README.md
 ```
 
@@ -91,9 +91,9 @@ DAA-practicals/
    python practical-04-factorial-comparison/factorial_comparison.py
    ```
 
-6. Run the coin change dynamic programming solution (Practical 05):
+6. Run the coin change dynamic programming solution (Practical 07):
    ```bash
-   python practical-05-coin-change-dp/coin_change_dp.py
+   python practical-07-coin-change-dp/coin_change_dp.py
    ```
 
 ---
