@@ -22,6 +22,9 @@ DAA-practicals/
 ├── practical-03-max-heap/
 │   ├── max_heap.py          # Max Heap Operations (Build Heap, Insert, Delete Max)
 │   └── README.md            # Detailed documentation for Practical 03
+├── practical-04-factorial-comparison/
+│   ├── factorial_comparison.py  # Iterative vs Recursive Factorial with timing
+│   └── README.md            # Detailed documentation for Practical 04
 ├── .gitignore
 └── README.md
 ```
@@ -79,6 +82,11 @@ DAA-practicals/
 4. Run Max Heap operations (Practical 03):
    ```bash
    python practical-03-max-heap/max_heap.py
+   ```
+
+5. Run the factorial comparison (Practical 04):
+   ```bash
+   python practical-04-factorial-comparison/factorial_comparison.py
    ```
 
 ---
