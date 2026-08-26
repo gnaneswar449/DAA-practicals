@@ -60,6 +60,18 @@ DAA-practicals/
 | **Build Max Heap** | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | Builds max heap from unsorted array |
 | **Insertion** | $\mathcal{O}(\log n)$ | $\mathcal{O}(1)$ | Inserts element and sifts upward |
 | **Delete Max** | $\mathcal{O}(\log n)$ | $\mathcal{O}(\log n)$ | Extracts root and heapifies downward |
+### 4. Factorial Calculation — Iterative vs Recursive (`practical-04-factorial-comparison`)
+
+| Method | Time Complexity | Space Complexity | Description |
+| :--- | :---: | :---: | :--- |
+| **Iterative Factorial** | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | Uses a loop, no extra stack memory |
+| **Recursive Factorial** | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | Uses the function call stack |
+
+### 7. Coin Change Problem — Dynamic Programming (`practical-07-coin-change-dp`)
+
+| Approach | Time Complexity | Space Complexity | Description |
+| :--- | :---: | :---: | :--- |
+| **Dynamic Programming** | $\mathcal{O}(\text{amount} \times \text{coins})$ | $\mathcal{O}(\text{amount})$ | Finds minimum coins for amount via DP table |
 
 ---
 
