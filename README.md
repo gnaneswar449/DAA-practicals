@@ -25,12 +25,12 @@ DAA-practicals/
 ├── practical-04-factorial-comparison/
 │   ├── factorial_comparison.py  # Iterative vs Recursive Factorial with timing
 │   └── README.md            # Detailed documentation for Practical 04
-├── practical-07-coin-change-dp/
+├── practical-05-coin-change-dp/
 │   ├── coin_change_dp.py    # Coin Change Problem using Dynamic Programming
-│   └── README.md            # Detailed documentation for Practical 07
-├── practical-05-knapsack-dp/
-│   ├── knapsack_dp.py    # 0/1 Knapsack using Dynamic Programming
-│   └── README.md         # Detailed documentation for Practical 05
+│   └── README.md            # Detailed documentation for Practical 05
+├── practical-07-knapsack-dp/
+│   ├── knapsack_dp.py    # 0/1 Knapsack Problem using Dynamic Programming
+│   └── README.md         # Detailed documentation for Practical 07
 ├── README.md
 ```
 
@@ -69,17 +69,17 @@ DAA-practicals/
 | :--- | :---: | :---: | :--- |
 | **Iterative Factorial** | $\mathcal{O}(n)$ | $\mathcal{O}(1)$ | Uses a loop, no extra stack memory |
 | **Recursive Factorial** | $\mathcal{O}(n)$ | $\mathcal{O}(n)$ | Uses the function call stack |
-### 5. 0/1 Knapsack Problem — Dynamic Programming (`practical-05-knapsack-dp`)
-
-| Approach | Time Complexity | Space Complexity | Description |
-| :--- | :---: | :---: | :--- |
-| **Dynamic Programming** | $\mathcal{O}(n \times \text{capacity})$ | $\mathcal{O}(n \times \text{capacity})$ | Maximizes value of items within knapsack capacity |
-
-### 7. Coin Change Problem — Dynamic Programming (`practical-07-coin-change-dp`)
+### 5. Coin Change Problem — Dynamic Programming (`practical-05-coin-change-dp`)
 
 | Approach | Time Complexity | Space Complexity | Description |
 | :--- | :---: | :---: | :--- |
 | **Dynamic Programming** | $\mathcal{O}(\text{amount} \times \text{coins})$ | $\mathcal{O}(\text{amount})$ | Finds minimum coins for amount via DP table |
+
+### 7. 0/1 Knapsack Problem — Dynamic Programming (`practical-07-knapsack-dp`)
+
+| Approach | Time Complexity | Space Complexity | Description |
+| :--- | :---: | :---: | :--- |
+| **Dynamic Programming** | $\mathcal{O}(n \times \text{capacity})$ | $\mathcal{O}(n \times \text{capacity})$ | Maximizes value of items within knapsack capacity |
 
 ---
 
@@ -110,14 +110,14 @@ DAA-practicals/
    python practical-04-factorial-comparison/factorial_comparison.py
    ```
 
-6. Run the 0/1 knapsack dynamic programming solution (Practical 05):
+6. Run the coin change dynamic programming solution (Practical 05):
    ```bash
-   python practical-05-knapsack-dp/knapsack_dp.py
+   python practical-05-coin-change-dp/coin_change_dp.py
    ```
 
-7. Run the coin change dynamic programming solution (Practical 07):
+7. Run the 0/1 knapsack dynamic programming solution (Practical 07):
    ```bash
-   python practical-07-coin-change-dp/coin_change_dp.py
+   python practical-07-knapsack-dp/knapsack_dp.py
    ```
 
 ---
