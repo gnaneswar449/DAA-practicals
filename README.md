@@ -28,6 +28,9 @@ DAA-practicals/
 ├── practical-05-knapsack-dp/
 │   ├── knapsack_dp.py    # 0/1 Knapsack Problem using Dynamic Programming
 │   └── README.md         # Detailed documentation for Practical 05
+├── practical-06-matrix-chain-multiplication/
+│   ├── matrix_chain_multiplication.py  # Matrix Chain Multiplication using DP
+│   └── README.md                     # Detailed documentation for Practical 06
 ├── practical-07-coin-change-dp/
 │   ├── coin_change_dp.py    # Coin Change Problem using Dynamic Programming
 │   └── README.md            # Detailed documentation for Practical 07
@@ -75,6 +78,12 @@ DAA-practicals/
 | :--- | :---: | :---: | :--- |
 | **Dynamic Programming** | $\mathcal{O}(n \times \text{capacity})$ | $\mathcal{O}(n \times \text{capacity})$ | Maximizes value of items within knapsack capacity |
 
+### 6. Matrix Chain Multiplication — Dynamic Programming (`practical-06-matrix-chain-multiplication`)
+
+| Approach | Time Complexity | Space Complexity | Description |
+| :--- | :---: | :---: | :--- |
+| **Dynamic Programming** | $\mathcal{O}(n^3)$ | $\mathcal{O}(n^2)$ | Finds optimal parenthesization to minimize multiplications |
+
 ### 7. Coin Change Problem — Dynamic Programming (`practical-07-coin-change-dp`)
 
 | Approach | Time Complexity | Space Complexity | Description |
@@ -115,7 +124,12 @@ DAA-practicals/
    python practical-05-knapsack-dp/knapsack_dp.py
    ```
 
-7. Run the coin change dynamic programming solution (Practical 07):
+7. Run the matrix chain multiplication dynamic programming solution (Practical 06):
+   ```bash
+   python practical-06-matrix-chain-multiplication/matrix_chain_multiplication.py
+   ```
+
+8. Run the coin change dynamic programming solution (Practical 07):
    ```bash
    python practical-07-coin-change-dp/coin_change_dp.py
    ```
