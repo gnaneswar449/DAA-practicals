@@ -25,12 +25,12 @@ DAA-practicals/
 ├── practical-04-factorial-comparison/
 │   ├── factorial_comparison.py  # Iterative vs Recursive Factorial with timing
 │   └── README.md            # Detailed documentation for Practical 04
-├── practical-05-knapsack-dp/
-│   ├── knapsack_dp.py    # 0/1 Knapsack using Dynamic Programming
-│   └── README.md         # Detailed documentation for Practical 05
 ├── practical-07-coin-change-dp/
 │   ├── coin_change_dp.py    # Coin Change Problem using Dynamic Programming
 │   └── README.md            # Detailed documentation for Practical 07
+├── practical-05-knapsack-dp/
+│   ├── knapsack_dp.py    # 0/1 Knapsack using Dynamic Programming
+│   └── README.md         # Detailed documentation for Practical 05
 ├── README.md
 ```
 
