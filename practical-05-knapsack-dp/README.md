@@ -1,4 +1,4 @@
-# Practical 7: 0/1 Knapsack Problem using Dynamic Programming
+# Practical 5: 0/1 Knapsack Problem using Dynamic Programming
 
 This practical demonstrates the **0/1 Knapsack Problem** using **Dynamic Programming (DP)**. Given a set of items, each with a weight and a value, the program finds the maximum total value that can be carried in a knapsack of a fixed capacity.
 
@@ -116,7 +116,7 @@ Execution time: 1.9e-05 seconds
 ## How to Run
 
 ```bash
-cd practical-07-knapsack-dp
+cd practical-05-knapsack-dp
 python knapsack_dp.py
 ```
 

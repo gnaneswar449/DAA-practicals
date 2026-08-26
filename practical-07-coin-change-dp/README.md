@@ -1,4 +1,4 @@
-# Practical 5: Coin Change Problem using Dynamic Programming
+# Practical 7: Coin Change Problem using Dynamic Programming
 
 This practical demonstrates the **Coin Change Problem** using **Dynamic Programming (DP)**. The program finds the minimum number of coins needed to make a given amount using a specified set of coin denominations.
 
@@ -122,7 +122,7 @@ Execution Time: 0.000001500 seconds
 ## How to Run
 
 ```bash
-cd practical-05-coin-change-dp
+cd practical-07-coin-change-dp
 python coin_change_dp.py
 ```
 
