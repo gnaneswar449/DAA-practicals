@@ -34,6 +34,9 @@ DAA-practicals/
 ├── practical-07-coin-change-dp/
 │   ├── coin_change_dp.py    # Coin Change Problem using Dynamic Programming
 │   └── README.md            # Detailed documentation for Practical 07
+├── practical-08-dfs-bfs/
+│   ├── dfs_bfs.py           # DFS & BFS Graph Traversals (predefined graph, no input)
+│   └── README.md            # Detailed documentation for Practical 08
 ├── README.md
 ```
 
@@ -90,6 +93,13 @@ DAA-practicals/
 | :--- | :---: | :---: | :--- |
 | **Dynamic Programming** | $\mathcal{O}(\text{amount} \times \text{coins})$ | $\mathcal{O}(\text{amount})$ | Finds minimum coins for amount via DP table |
 
+### 8. DFS and BFS Graph Traversals (`practical-08-dfs-bfs`)
+
+| Algorithm | Time Complexity | Space Complexity | Description |
+| :--- | :---: | :---: | :--- |
+| **DFS** | $\mathcal{O}(V + E)$ | $\mathcal{O}(V)$ worst case | Depth-first traversal using an explicit stack |
+| **BFS** | $\mathcal{O}(V + E)$ | $\mathcal{O}(V)$ worst case | Breadth-first traversal using a queue |
+
 ---
 
 ## 💻 How to Run
@@ -132,6 +142,11 @@ DAA-practicals/
 8. Run the coin change dynamic programming solution (Practical 07):
    ```bash
    python practical-07-coin-change-dp/coin_change_dp.py
+   ```
+
+9. Run the DFS and BFS graph traversal solution (Practical 08):
+   ```bash
+   python practical-08-dfs-bfs/dfs_bfs.py
    ```
 
 ---
